@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#343434</color>
+    <color name="colorPrimaryDark">#2a2a2a</color>
+    <color name="colorAccent">#fe1a63</color>
+
+    <color name="highlight">#fe1a63</color>
+    <color name="bg">#0a0b0f</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+
+    <color name="text">#f4f4f4</color>
+    <color name="text_sub">#9c9c9c</color>
+
+    <color name="home_header_text">#cdcdcd</color>
+    <color name="transparent">#00000000</color>
+
+    <!--Navigation Drawer -->
+    <color name="navigation_header">#ffffff</color>
+    <color name="navigation_sub_header">#bcbcbc</color>
+    <color name="navigation_default">#ffffff</color>
+    <color name="navigation_checked">#fe1a63</color>
+    <color name="navigation_bg">@color/bg</color>
+    <color name="navigation_item_bg_default">@color/bg</color>
+    <color name="navigation_item_bg_checked">#1b1c20</color>
+
+    <!--Bottom Navigation Bar -->
+    <color name="bottom_nav_bg">#222530</color>
+    <color name="bottom_centerButton_bg">#a9793b</color>
+    <color name="bottom_text">#9e9e9e</color>
+    <color name="bottom_hover_item">#fe1a63</color>
+
+    <!--forgot password-->
+    <color name="gray">#9c9c9c</color>
+
+
+    <!--privacy policy & about us & setting-->
+    <color name="about_us_Text">#dddddd</color>
+    <color name="about_us_SubText">#a7a7a8</color>
+    <color name="setting_text">#f4f4f4</color>
+    <color name="setting_divider">#292b30</color>
+
+    <!-- profile -->
+    <color name="profile_text">#9c9c9c</color>
+    <color name="profile_sub_text">#f4f4f4</color>
+    <color name="profile_divider">#343434</color>
+
+    <!--Genre and Language -->
+    <color name="genre_view_bg">#00000000</color>
+    <color name="genre_view_select_bg">#555761</color>
+
+    <!--Language -->
+    <color name="language_bg">#2b2d39</color>
+    <color name="filter_divider">#9c9c9c</color>
+
+    <!--season -->
+    <color name="season_bg">#343434</color>
+
+    <!--player setting text -->
+    <color name="prayer_setting_bg">#f7f7f7</color>
+    <color name="player_setting_text">#717171</color>
+
+    <color name="theme_orange_pink_start">#fe8706</color>
+    <color name="theme_orange_pink_end">#fe0476</color>
+    <color name="tab_unselect">#2c2f3b</color>
+    <color name="tab_bg">#1c1e27</color>
+    <color name="gradient_1">#F36998</color>
+    <color name="gradient_2">#3C9DEA</color>
+    <color name="gradient_3">#8552DF</color>
+    <color name="gradient_4">#5FBD63</color>
+    <color name="gradient_5">#F1683C</color>
+
+    <color name="facebook">#518ef8</color>
+    <color name="facebook_dark">#397df3</color>
+    <color name="google">#f14336</color>
+    <color name="google_dark">#d0362a</color>
+    <color name="login_edit_bg">#373d51</color>
+    <color name="imdb">#282c3b</color>
+    <color name="download">#2f3446</color>
+    <color name="cast">#B32F3446</color>
+
+    <color name="card_info_header">#282c38</color>
+    <color name="card_info_bg">#1e212b</color>
+    <color name="card_info_highlight">#373d51</color>
+
+    <color name="plan_normal">#15161b</color>
+    <color name="plan_select">#263139</color>
+    <color name="slider_bg">#14151b</color>
+    <color name="rippelColor">#B3FFFFFF</color>
+
+
+</resources>

@@ -1,0 +1,10 @@
+<resources>
+    <dimen name="btnRadius">5dp</dimen>
+    <dimen name="item_space">8dp</dimen>
+    <dimen name="borderRadius">10dp</dimen>
+    <dimen name="langRadius">25dp</dimen>
+    <dimen name="enchanted_view_pager_margin">35dp</dimen>
+    <dimen name="applovin_banner_height">50dp</dimen>
+    <dimen name="rippleStrokeWidth">2dp</dimen>
+    <dimen name="rippleRadius">64dp</dimen>
+</resources>

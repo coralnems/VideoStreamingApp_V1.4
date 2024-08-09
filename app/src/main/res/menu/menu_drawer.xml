@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/menu_go_home"
+            android:checked="true"
+            android:icon="@drawable/ic_home"
+            android:title="@string/menu_home" />
+
+        <item
+            android:id="@+id/menu_go_tv_show"
+            android:checked="false"
+            android:icon="@drawable/ic_tv_show"
+            android:title="@string/menu_tv_show" />
+
+        <item
+            android:id="@+id/menu_go_movie"
+            android:checked="false"
+            android:icon="@drawable/ic_movie"
+            android:title="@string/menu_movie" />
+
+        <item
+            android:id="@+id/menu_go_sport"
+            android:checked="false"
+            android:icon="@drawable/ic_sport"
+            android:title="@string/menu_sport" />
+
+        <item
+            android:id="@+id/menu_go_tv"
+            android:checked="false"
+            android:icon="@drawable/ic_live_tv"
+            android:title="@string/menu_tv" />
+
+        <item
+            android:id="@+id/menu_go_watch_list"
+            android:checked="false"
+            android:icon="@drawable/ic_watchlist"
+            android:title="@string/my_watch_list" />
+
+        <item
+            android:id="@+id/menu_go_dashboard"
+            android:checkable="false"
+            android:icon="@drawable/ic_dashboard"
+            android:title="@string/menu_dashboard" />
+
+        <item
+            android:id="@+id/menu_go_profile"
+            android:checkable="false"
+            android:icon="@drawable/ic_profile"
+            android:title="@string/menu_profile" />
+
+        <item
+            android:id="@+id/menu_go_setting"
+            android:checked="false"
+            android:icon="@drawable/ic_setting"
+            android:title="@string/menu_setting" />
+
+        <item
+            android:id="@+id/menu_go_login"
+            android:checked="false"
+            android:icon="@drawable/ic_login"
+            android:title="@string/menu_login" />
+
+        <item
+            android:id="@+id/menu_go_logout"
+            android:checked="false"
+            android:icon="@drawable/ic_logout"
+            android:title="@string/menu_logout" />
+
+
+    </group>
+</menu>

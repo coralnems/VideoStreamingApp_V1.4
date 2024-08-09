@@ -1,0 +1,110 @@
+buildscript {
+    repositories {
+        google()
+        maven { url 'https://plugins.gradle.org/m2/' }
+    }
+}
+plugins {
+    id 'com.onesignal.androidsdk.onesignal-gradle-plugin'
+    id 'com.android.application'
+    id 'com.google.gms.google-services'
+    id 'kotlin-android'
+    id 'kotlin-android-extensions'
+}
+
+repositories {
+    maven {
+        url "https://maven.google.com"
+    }
+}
+
+android {
+    compileSdkVersion 31
+
+    defaultConfig {
+        applicationId "com.example.videostreamingapp"
+        minSdkVersion 21
+        targetSdkVersion 31
+        versionCode 1
+        versionName "1.0"
+        multiDexEnabled true
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes.each {
+        it.buildConfigField 'String', 'SERVER_URL', serverUrl
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility = JavaVersion.VERSION_1_8
+        targetCompatibility = JavaVersion.VERSION_1_8
+    }
+    buildToolsVersion '35.0.0'
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'androidx.appcompat:appcompat:1.4.2'
+    implementation 'com.google.android.material:material:1.6.1'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+    implementation 'androidx.cardview:cardview:1.0.0'
+    implementation 'io.github.inflationx:calligraphy3:3.1.1'
+    implementation 'io.github.inflationx:viewpump:2.0.3'
+    implementation 'com.makeramen:roundedimageview:2.3.0'
+    implementation "androidx.annotation:annotation:1.5.0"
+    implementation 'com.mobsandgeeks:android-saripaar:2.0.3'
+    implementation 'com.google.code.gson:gson:2.8.9'
+    implementation 'com.loopj.android:android-async-http:1.4.11'
+    implementation 'com.squareup.picasso:picasso:2.71828'
+    implementation 'org.greenrobot:eventbus:3.1.1'
+    implementation 'com.github.siyamed:android-shape-imageview:0.9.3@aar'
+    implementation 'me.relex:circleindicator:2.1.4@aar'
+    implementation 'com.razorpay:checkout:1.6.20'
+    implementation 'com.stripe:stripe-android:17.1.1'
+    implementation 'com.android.support:multidex:1.0.3'
+    implementation 'com.google.android.gms:play-services-ads:21.4.0'
+    implementation 'com.github.ixiDev:GDPRChecker:v0.2'
+    implementation 'com.google.android.ads.consent:consent-library:1.0.8'
+    //noinspection GradleDependency
+    implementation "com.google.android.exoplayer:exoplayer:2.11.8" // pls don't upgrade this
+    implementation 'com.onesignal:OneSignal:4.8.3'
+    implementation 'com.google.android.gms:play-services-location:21.0.1'
+    implementation 'com.google.firebase:firebase-messaging:23.1.1'
+    implementation 'com.google.firebase:firebase-analytics:21.2.0'
+    implementation 'com.github.10bis:compactCreditInput:2.0.2'
+    implementation 'co.paystack.android:paystack:3.1.2'
+    implementation 'com.google.android.gms:play-services-auth:20.4.0'
+    implementation 'com.facebook.android:facebook-login:13.0.0'
+    implementation 'com.facebook.android:audience-network-sdk:6.12.0'
+    implementation 'com.google.ads.mediation:facebook:6.12.0.0'
+    implementation 'com.google.android.gms:play-services-cast-framework:21.2.0'
+    implementation 'com.github.vkay94:DoubleTapPlayerView:1.0.0'
+    implementation 'org.jsoup:jsoup:1.13.1'
+    implementation 'com.tuyenmonkey:text-decorator:1.0.0'
+    implementation 'com.braintreepayments.api:drop-in:4.6.0'
+    implementation 'com.karumi:dexter:6.2.3'
+    implementation 'in.payu:payu-checkout-pro:1.8.2'
+    implementation 'com.paytm.appinvokesdk:appinvokesdk:1.6.11'
+    implementation 'com.instamojo:android-sdk:3.6.0'
+    implementation 'com.cashfree.pg:api:1.1.0'
+    implementation 'androidx.gridlayout:gridlayout:1.0.0'
+    implementation 'com.github.flutterwave.rave-android:rave_android:2.1.39'
+    implementation('com.wortise:android-sdk:1.4.1') {
+        exclude group: "com.google.android.exoplayer", module: "exoplayer"
+    }
+    implementation 'com.startapp:inapp-sdk:4.10.6'
+    implementation 'com.applovin:applovin-sdk:11.6.0'
+    implementation 'com.google.android.flexbox:flexbox:3.0.0'
+    implementation project(':SmoothCheckBox-master')
+    implementation project(':bottomnavbar')
+    implementation files('libs/YouTubeAndroidPlayerApi.jar')
+    testImplementation 'junit:junit:4.13.2'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.4'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.0'
+}
+
