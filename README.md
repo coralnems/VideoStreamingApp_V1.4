@@ -8,17 +8,17 @@ The Movie Streaming App is a mobile application built with Flutter, designed to 
 
 ## Features
 
-- **Seamless Streaming:** Watch your favorite movies and TV shows in high quality with smooth playback.
-- **User Profiles:** Create and manage multiple user profiles, each with personalized recommendations.
-- **Search and Browse:** Easily search for movies or browse through curated categories.
-- **Watchlist:** Add movies and shows to your watchlist to view later.
-- **Multi-Platform Support:** Available on Android, with plans to expand to iOS and web.
+- Seamless Streaming: Watch your favorite movies and TV shows in high quality with smooth playback.
+- User Profiles: Create and manage multiple user profiles, each with personalized recommendations.
+- Search and Browse: Easily search for movies or browse through curated categories.
+- Watchlist: Add movies and shows to your watchlist to view later.
+- Multi-Platform Support: Available on Android, with plans to expand to iOS and web.
 
 ## Tech Stack
 
-- **Frontend:** Flutter
-- **Backend:** Firebase
-- **Build System:** Gradle
+- Frontend: Flutter
+- Backend: Firebase
+- Build System: Gradle
 
 ## Getting Started
 
@@ -33,10 +33,10 @@ Before you begin, ensure you have the following installed on your local machine:
 
 ### Installation
 
-1. **Clone the Repository:**
+1. Clone the Repository:
    ```bash
-   git clone https://github.com/yourusername/moviestreamingapp.git
-   cd moviestreamingapp
+   git clone https://github.com/coralnems/VideoStreamingApp_V1.4.git
+   cd VideoStreamingApp_V1.4
 
 Install Dependencies: flutter pub get
 
@@ -58,10 +58,10 @@ Watchlist: Save movies and shows to your watchlist for later viewing.
 Streaming: Click on any movie or show to start streaming instantly.
 
 Roadmap
-[ ] Expand to iOS platform.
-[ ] Implement offline viewing.
-[ ] Add multi-language support.
-[ ] Integrate with third-party APIs for additional content.
+[A] Expand to iOS platform.
+[B] Implement offline viewing.
+[C] Add multi-language support.
+[D] Integrate with third-party APIs for additional content.
 Contributing
 We welcome contributions! If you'd like to contribute, please fork the repository and use a feature branch. Pull requests are warmly welcome.
 
