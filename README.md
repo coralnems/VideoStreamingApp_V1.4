@@ -1,6 +1,6 @@
 # Movie Streaming App
 
-![Movie Streaming App](https://yourimageurl.com/banner.png)
+![Movie Streaming App](https://github.com/coralnems/VideoStreamingApp_V1.4/blob/katzsecurity/pirate15.png)
 
 ## Overview
 
